@@ -11,14 +11,14 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import enums
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
-BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","mr_sukkun")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","legend_coder")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","the_support_chat")
+API_ID = os.environ.get("API_ID", "24154075") 
+API_HASH = os.environ.get("API_HASH", "9c44d4c6ff6e6e3c47c89ef170b1f6f2") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7737848237:AAGZCOtPv8J0pxBE9MbbOOGSuvUfpX-eh2o") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://kijendtbsd:PNIbDuROL5i5tjsU@kaijennndtbs.rosnukj.mongodb.net/?retryWrites=true&w=majority&appName=Kaijennndtbs")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","jajajnaj_bot") 
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL","watermoonsexid")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","pensioffc")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","watermoonsexid")
 BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
 START_IMG = os.environ.get("START_IMG","")
 
